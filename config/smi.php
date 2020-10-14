@@ -71,7 +71,7 @@ return [
             //'https://www.watson.ch/api/1.0/rss/index.xml', failed
         'https://bazonline.ch/basel/rss.html',
         'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
-        'https://partner-feeds.20min.ch/rss/20minuten',
+        //'https://partner-feeds.20min.ch/rss/20minuten',
         'https://partner-feeds.publishing.tamedia.ch/rss/bazonline/ticker',
     ],
 
