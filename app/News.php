@@ -97,7 +97,12 @@ class News extends Model implements Feedable
      */
     public function setPubDateAttribute($date): void
     {
-        $this->attributes['pubDate'] = Carbon::parse($date, 'Europe/Moscow');
+        try {
+            $this->attributes['pubDate'] = Carbon::parse($date, 'Europe/Zurich');
+        }catch (\Exception $exception)
+        {
+            $this->attributes['pubDate'] = now( 'Europe/Zurich');
+        }
     }
 
     /**
