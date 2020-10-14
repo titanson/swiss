@@ -111,7 +111,6 @@ class DownloadRssCommand extends Command
         $validator = Validator::make($item, [
             'title'       => 'required|string',
             'pubDate'     => 'required|date',
-            'description' => 'required|string',
             'link'        => 'required|string',
         ]);
 
