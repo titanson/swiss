@@ -87,7 +87,7 @@ return [
         'https://www.netzwoche.ch/taxonomy/term/31/feed',
         'https://t3n.de/rss.xml',
         'https://rss.golem.de/rss.php?feed=RSS2.0',
-        'www.heise.de/rss/heise-atom.xml',
+        'https://www.heise.de/rss/heise-atom.xml',
         'https://www.derstandard.at/rss',
         'https://www.diepresse.com/rss/home',
         'https://www.kleinezeitung.at/rss/chronik',
