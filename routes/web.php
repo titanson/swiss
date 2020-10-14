@@ -35,14 +35,18 @@ Route::get('/news/{id}', function (string $id) {
         })->first();
 
     // Random
-    $stories = Source::getSimilarNews()
-        ->filter(static function (Collection $stories) use ($story) {
-            if($story === null){
-                return true;
-            }
+    try {
+        $stories = Source::getSimilarNews()
+            ->filter(static function (Collection $stories) use ($story) {
+                if ($story === null) {
+                    return true;
+                }
 
-            return $stories->get('main')->id !== $story->get('main')->id;
-        })->random(4);
+                return $stories->get('main')->id !== $story->get('main')->id;
+            })->random(4);
+    }catch (Exception $exception){
+        $stories = collect();
+    }
 
     // Simple news
     $news = Source::getLastNews()
