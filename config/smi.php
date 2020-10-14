@@ -36,7 +36,7 @@ return [
     */
 
     'story'  => [
-        'percent'  => 51,
+        'percent'  => 55,
         'minCount' => 2,
     ],
 
