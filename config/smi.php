@@ -64,7 +64,7 @@ return [
 
     'rss' => [
         'https://www.srf.ch/news/bnf/rss/1646',
-        //'https://www.nzz.ch/recent.rss',
+        'https://www.nzz.ch/recent.rss',
         //'https://www.blick.ch/news/rss.xml',
         //'https://partner-feeds.publishing.tamedia.ch/rss/tagesanzeiger/ticker',
         //'https://partner-feeds.beta.20min.ch/rss/20minuten',
