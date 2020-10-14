@@ -1,0 +1,52 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+    branches:
+      - source
+  schedule:
+    - cron:  '*/10 * * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Install 🔧
+        run: |
+          composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+      - name: TimeZone ⏰
+        run: |
+          sudo timedatectl set-timezone UTC
+          timedatectl
+      - name: Artisan 🔮
+        env:
+          APP_NAME: TSMI
+          APP_ENV: production
+          APP_KEY: base64:hh+C71dWj0tmdKkazohGJh5vxSGNkvN1H9o6IDwEyaA=
+          APP_DEBUG: false
+          APP_URL: https://tsmi.live
+        run: |
+          php artisan rss:download
+          php artisan rss:exchange
+          php artisan rss:similar
+          php artisan rss:page
+      - name: Logs 📑️
+        uses: actions/upload-artifact@v2
+        with:
+          name: Logs
+          path: storage/logs/
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          SINGLE_COMMIT: true
+          CLEAN: true
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: master
+          FOLDER: public

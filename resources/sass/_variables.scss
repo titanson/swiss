@@ -1,0 +1,39 @@
+
+// Body
+$body-bg: #f2f2f2;//#f8f9fa;
+
+// Colors
+$primary: #353a40;//#82c502;
+$secondary: #f1f1f1;//#adb5bd;
+
+// Typography
+//$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Background gradient
+$enable-gradients: true;
+
+// Dropdown
+$enable-caret : false;
+
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+);
+
+
+$link-color: #343a40;
+$link-decoration: none;
+$link-hover-decoration: underline;
