@@ -73,9 +73,6 @@ return [
         'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
         'https://partner-feeds.20min.ch/rss/20minuten',
         'https://partner-feeds.publishing.tamedia.ch/rss/bazonline/ticker',
-        'https://rss.app/feeds/qBL3ayaM1Vlf6Dr7.xml',
-        'https://rss.app/feeds/sT7vuBMBqUgZ9Pn8.xml',
-        'https://rss.app/feeds/WWYTapyZDfiQptB8.xml',
     ],
 
 
