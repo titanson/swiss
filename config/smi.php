@@ -64,13 +64,13 @@ return [
 
     'rss' => [
         'https://www.srf.ch/news/bnf/rss/1646',
-        'https://www.nzz.ch/recent.rss',
-        'https://www.blick.ch/news/rss.xml',
-        'https://partner-feeds.publishing.tamedia.ch/rss/tagesanzeiger/ticker',
-        'https://partner-feeds.beta.20min.ch/rss/20minuten',
-        'https://www.watson.ch/api/1.0/rss/index.xml',
-        'https://bazonline.ch/basel/rss.html',
-        'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
+        //'https://www.nzz.ch/recent.rss',
+        //'https://www.blick.ch/news/rss.xml',
+        //'https://partner-feeds.publishing.tamedia.ch/rss/tagesanzeiger/ticker',
+        //'https://partner-feeds.beta.20min.ch/rss/20minuten',
+        //'https://www.watson.ch/api/1.0/rss/index.xml',
+        //'https://bazonline.ch/basel/rss.html',
+        //'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
     ],
 
 
