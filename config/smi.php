@@ -69,8 +69,8 @@ return [
         'https://partner-feeds.publishing.tamedia.ch/rss/tagesanzeiger/ticker',
         //'https://partner-feeds.beta.20min.ch/rss/20minuten',
         'https://www.watson.ch/api/1.0/rss/index.xml',
-        'https://bazonline.ch/basel/rss.html',
-        'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
+        //'https://bazonline.ch/basel/rss.html',
+        //'https://partner-feeds.publishing.tamedia.ch/rss/derbund/ticker',
     ],
 
 
