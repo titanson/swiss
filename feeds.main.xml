@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title><![CDATA[My feed]]></title>
+        <link><![CDATA[http://swiss.tsmi.live/feeds.main]]></link>
+        <description><![CDATA[The description of the feed.]]></description>
+        <language>ru-RU</language>
+        <pubDate>Sun, 13 Dec 2020 13:13:44 +0000</pubDate>
+
+                    <item>
+                <title><![CDATA[Formel 1: Max Verstappen gewinnt beim Saisonfinal vor den Mercedes]]></title>
+                <link>http://swiss.tsmi.live/news/d1c34e69</link>
+                <description><![CDATA[Ungefährdet fuhr der #Niederländer von der #Pole zum #Sieg in #Abu #Dhabi]]></description>
+                <author><![CDATA[www.tagesanzeiger.ch]]></author>
+                <guid isPermaLink="false">2020-12-13-125007d1c34e69</guid>
+                <pubDate>Sun, 13 Dec 2020 12:50:07 +0000</pubDate>
+                                    <enclosure url="https://cdn.unitycms.io/image/ocroped/400,400,1000,1000,0,0/geneOgeBXPk/8Tf1hAaIKuOBoAEmkHlMZ6.jpg" length="0" type="image/jpeg" />
+                                            </item>
+                    <item>
+                <title><![CDATA[Borussia Dortmund entlässt Lucien Favre – der bedauert die Trennung]]></title>
+                <link>http://swiss.tsmi.live/news/e9e56935</link>
+                <description><![CDATA[Das #1:5-Debakel gegen #Stuttgart wurde dem #Schweizer zum #Verhängnis]]></description>
+                <author><![CDATA[www.20min.ch]]></author>
+                <guid isPermaLink="false">2020-12-13-131344e9e56935</guid>
+                <pubDate>Sun, 13 Dec 2020 13:13:44 +0000</pubDate>
+                                    <enclosure url="https://cdn.unitycms.io/image/ocroped/400,400,696,631,251,71/JEOl05dm8XY/9MV5rNX44jXAwxecNVu5ji.jpg" length="0" type="image/jpeg" />
+                                            </item>
+            </channel>
+</rss>
